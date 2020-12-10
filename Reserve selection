@@ -1,0 +1,27 @@
+f=[3.8*10^9];
+sum=0;
+zone=[];
+RAchannel=90;
+Rf=[.1*10^9];
+for z=18:18:RAchannel
+    ch=18;
+    zone=[zone ch];
+    
+end
+
+    
+Zoneselection = randi ([1,length(zone)]);
+Channelselection=randi([1,21])
+if(Channelselection>18)
+      TotalRf=f+Rf;
+       Rch=18+ceil((RAchannel*Rf)/f)
+else
+    disp('Sirercode')
+end
+
+
+       
+    
+    
+
+
